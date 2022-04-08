@@ -1,3 +1,15 @@
+
+/* Testimonials carouset slider swiper*/
+const swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    pagination: {
+      el: '.swiper-pagination'
+    },
+    mousewheel: true,
+    keyboard: true
+  })
+   
+
 /*mudar o herader da pagina quando der scroll*/
 const header = document.querySelector("#header");
 const navHeight = header.offsetHeight;
@@ -10,8 +22,6 @@ window.addEventListener('scroll', function () {
         header.classList.remove('scroll');
     }
 })
-
-
 
 
 /* Abre e fecha o menu ao clilcar em cima do icone: hambuerger e X*/
@@ -29,21 +39,11 @@ for(const element of toggle){
 const links = document.querySelectorAll('nav ul li a')
 
 for(const link of links) {
-    link.addEventListener('click', function () {
+    links.addEventListener('click', function () {
         nav.classList.remove('show')
 
     })
 }
 
 
-/* Testimonials carouset slider swiper*/
-const swiper = new Swiper('.swiper-container', {
-    slidesPerView: 1,
-    pagination: {
-      el: '.swiper-pagination'
-    },
-    mousewheel: true,
-    keyboard: true
-  })
-   
     
