@@ -318,7 +318,7 @@
      text-align: center;
   }
   
-  #home .text h1{
+  #home .text p{
      margin-bottom: 1rem;
   }
   
@@ -471,12 +471,37 @@
   
   
   /*========== CONTACT ==========*/
+  #contact .grid{
+    gap: 4rem;
+  }
+
+  #contact .text p {
+    margin-bottom: 2rem;
+  }
+
+  #contact .text p{
+    margin-bottom:  2rem;
+  }
   
+  #contact .buttom i, 
+  #contact ul li i {
+    font-size: 1.5rem;
+    margin-right: 0.625;
+  }
   
+  #contact ul.grid {
+    gap: 2rem;
+ 
+  }
   
-  
-  
-  
+  #contact ul li  {
+    display: flex;
+    align-items: center;
+  }
+
+  #contact ul li i{
+    color: var(--base-color);
+  }
   
   
   
