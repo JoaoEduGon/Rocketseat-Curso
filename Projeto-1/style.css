@@ -42,7 +42,7 @@
         --title-color: hsl(var(--hue) 41% 10%);
         --text-color: hsl(0 0% 46%);
         --text-color-light: hsl(0 0% 98%);
-        --body-color: hsl(0 0% 98%);
+        --body-color: rgb(255, 255, 255);
   }
   
   /*========== BASE ==========*/
@@ -163,6 +163,10 @@
   .logo samp{ 
     font: 700 1.31rem 'Poppins', sans-serif;
     color: var(--base-color);
+  }
+
+  .logo span{
+    color: var(--body-color);
   }
   
   /*========== NAVEGATIO ==========*/
@@ -503,7 +507,33 @@
     color: var(--base-color);
   }
   
+   /*========== FOOTER ==========*/
   
-  
+   footer{
+     background: var(--base-color) ;
+   }
+
+   footer .logo{
+     display: inline-block;
+     margin-bottom: 1.5rem;
+   }
+
+   footer .bred p{
+     color: var(--text-color-light);
+     margin-bottom: 0.75rem;
+   }
+   
+   footer i{
+     font-size: 1.5rem;
+     color: var(--text-color-light);
+   }
+
+   footer .social{
+     grid-auto-flow: column;
+   }
+
+   footer .social a {
+     margin-right: 2rem;
+   }
   
   
