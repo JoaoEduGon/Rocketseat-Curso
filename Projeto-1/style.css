@@ -509,31 +509,32 @@
   
    /*========== FOOTER ==========*/
   
-   footer{
+   footer {
      background: var(--base-color) ;
    }
 
-   footer .logo{
+   footer .logo {
      display: inline-block;
      margin-bottom: 1.5rem;
    }
 
-   footer .bred p{
+   footer .brand p {
      color: var(--text-color-light);
      margin-bottom: 0.75rem;
    }
    
-   footer i{
+   footer  i {
      font-size: 1.5rem;
      color: var(--text-color-light);
    }
 
-   footer .social{
-     grid-auto-flow: column;
-   }
+   
 
-   footer .social a {
-     margin-right: 2rem;
-   }
+   footer  .grid .social  {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+   
   
   
