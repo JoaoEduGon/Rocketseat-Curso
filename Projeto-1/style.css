@@ -535,11 +535,23 @@
     display: flex;
     gap: 2rem;
 }
+
+   footer .social a {
+     margin-right: 2rem;
+     transition: 0.3s;
+     display: inline-block;
+   }
+
+   
+   footer .social a:hover {
+     transform: translateY(-15px);
+   }
+
    
   
  /*========== BACK TO TOP ==========*/  
 
- .back-to-top{ 
+ .back-to-top { 
    background: var(--base-color);
    color: var(--text-color-light);
    position: fixed;
@@ -552,8 +564,18 @@
 
    font-size: 1.5rem;
    line-height: 0;
-
-
+   
+   opacity: 0;
+   transition: 0.5s;
+   transform: translate(100%);
+   
+ }
+ 
+ 
+ .back-to-top.show {
+   visibility: visible;
+   opacity: 1;
+   transform: translate(0);
    
 
  }
