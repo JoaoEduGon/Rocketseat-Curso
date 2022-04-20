@@ -579,3 +579,19 @@
    
 
  }
+
+ /*==============  Media queries  ============*/
+
+ /*Extra large devices: 1200*/
+  @media () {
+}
+ /*large devices:  1023 >*/
+  @media () {
+}
+ /*large devices:  992 >*/
+  @media ( min-width: 922px; ) {
+
+}
+ /*Large devices:  767*/
+  @media () {
+}
