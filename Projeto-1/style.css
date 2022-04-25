@@ -223,7 +223,7 @@
     transition: 0.2s; 
   } 
   
-  nac .menu ul{
+  nav .menu ul{
    display: none;
   }
   
@@ -456,6 +456,7 @@
     object-fit: cover;
     clip-path: circle();
     margin-right: 0.5rem;
+    position: absolute;
   
   }
   
@@ -576,6 +577,7 @@
    visibility: visible;
    opacity: 1;
    transform: translate(0);
+   
    
 
  }
