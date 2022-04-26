@@ -51,3 +51,22 @@
 .box-2 div {
     border: 1px solid;
 }
+
+.box-3{
+
+    display: flex;
+    align-items: flex-start;
+    /*
+        - stretch
+        - flex-start
+        - flex-end
+        - center
+    */
+    border: 1px dashed red;
+    height: 150px;
+
+}
+
+.box-3 div{
+border: 1px solid;
+}

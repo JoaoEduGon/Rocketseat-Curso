@@ -38,3 +38,10 @@
 -space-between
 -space-evenly
 
+# align-items
+
+- stretch
+- flex-start
+- flex-end
+- center
+
