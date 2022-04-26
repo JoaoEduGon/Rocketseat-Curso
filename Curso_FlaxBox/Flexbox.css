@@ -12,7 +12,11 @@
 
 }
 
+
+
 /* EIXO */
+
+
 
 .container2 {
     display: flex;
@@ -20,4 +24,21 @@
     justify-content: center;
     height: 100vh;
 
+} 
+
+/*  Flex sizing */
+
+.Cntainer {
+display: flex;
+border: 1px solid red;
+height: 200px;
+
+
 }
+
+ .item1{
+    background-color: gray;
+    border: 1px solid ; 
+    flex: 10;
+    
+    }
