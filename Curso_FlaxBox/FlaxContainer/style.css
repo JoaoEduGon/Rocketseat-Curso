@@ -30,3 +30,24 @@
     width: 80px;
     height: 50px;
 }
+
+.box-2{
+    display: flex;  
+
+    justify-content: flex-end;
+    /* -flex-start  - Alinha inicio
+       -flex-end  - Alinha final
+       -center   -  Alinha Centro 
+       -space-aroud - Espaços ao redor dos elementos
+       -space-between  - Espaçoes entre os elementos
+       -space-evenly -  espaço por igual em cada elemento
+    */
+
+    height: 150px;
+
+    border: 1px dashed red;
+}
+
+.box-2 div {
+    border: 1px solid;
+}
