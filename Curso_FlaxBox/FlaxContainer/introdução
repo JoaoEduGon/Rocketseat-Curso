@@ -11,4 +11,21 @@
 
 -Flex é uma dimensão (Horizintal ou vertical)
 -Podemos mudar a direção com 'flex-direction'
--Valores: (row-reverse | colum | column-reverse)
+-Valores: (row | row-reverse | colum | column-reverse)
+
+
+
+
+#Flex-wrap
+
+-Podemos usar multi linha
+-Cada nova linha, um novo flex container
+
+
+#Flex flow
+
+-shorthand
+-fle-direction || flex-wrap
+
+
+

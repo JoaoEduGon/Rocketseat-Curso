@@ -1,0 +1,18 @@
+/* -Valores: (row | row-reverse | colum | column-reverse) */
+
+.container{
+    display: flex; 
+    flex-direction: row-reverse;
+}
+
+.box {
+     display: flex;
+     border: 1px dashed red;
+     flex-wrap: wrap;
+
+}
+
+.box div {
+    border: 1px solid black;
+    width: 80px; 
+}

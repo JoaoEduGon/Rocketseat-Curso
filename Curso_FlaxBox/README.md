@@ -1,0 +1,17 @@
+# Rocketseat-Curso
+
+- FLEXBOX
+
+- NORMAL FLOW
+
+- TABLE
+
+- TERMINOLOGIA
+
+- DIREÇÂO DOS INTENS
+
+- FLE WRAP
+
+- FLE FLOW 
+
+
