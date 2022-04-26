@@ -70,3 +70,21 @@
 .box-3 div{
 border: 1px solid;
 }
+
+
+.box-4 {
+    display: flex;
+    border: 1px dashed red;
+    gap: 2px;
+    /*
+        -faixas: px, pt
+        -flexiveis: %, em, rem 
+        Espaços entre os intens 
+    */
+
+}
+
+.box-4 div{
+border: 1px solid ;
+
+}

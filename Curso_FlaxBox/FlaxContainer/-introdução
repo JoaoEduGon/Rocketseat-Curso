@@ -45,3 +45,13 @@
 - flex-end
 - center
 
+# Gap
+
+- Espaçoes entre os elemtos
+
+# Valores
+
+Unidade de medidas 
+faixas: px, pt
+flexiveis: %, em, rem
+
