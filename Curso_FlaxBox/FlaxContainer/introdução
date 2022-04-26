@@ -1,0 +1,14 @@
+-Direção dos itens
+-Multi linha
+-Alinhamneto 
+   Principal 
+   Cruzando
+-Espeçoes entre os intens 
+
+
+
+#Direção dos itens
+
+-Flex é uma dimensão (Horizintal ou vertical)
+-Podemos mudar a direção com 'flex-direction'
+-Valores: (row-reverse | colum | column-reverse)
